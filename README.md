@@ -1,6 +1,6 @@
-#RAG - Retrieval Augmented Generation y Sprig AI
+# RAG - Retrieval Augmented Generation y Sprig AI
 
-#DataLoader:
+# DataLoader:
 
 Logger y LoggerFactory:
 
@@ -61,7 +61,7 @@ Retorna los fragmentos para ser añadidos al "Vector Store".
 
 Este código es responsable de cargar un archivo de texto, procesarlo en fragmentos pequeños, y almacenar esos fragmentos como vectores en un almacén especializado. Si el almacén ya existe, simplemente se carga; si no, se crea uno nuevo a partir del archivo de texto. Además, maneja posibles errores que puedan ocurrir durante este proceso, como problemas de cuota o errores de lectura del archivo.
 
-#RagRestController:
+# RagRestController:
 
 Inyección de Dependencias: 
 
