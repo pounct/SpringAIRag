@@ -83,3 +83,13 @@ Los documentos similares se mapean a su contenido textual, y estos contenidos se
 Llamada al Modelo AI:
 
 El ChatClient se utiliza para enviar el prompt al modelo AI y recuperar la respuesta, que se devuelve como texto plano.
+
+## Swagger UI page:
+
+http://localhost:port/swagger-ui.html
+
+
+## OpenAPI description:
+
+http://localhost:port/v3/api-docs
+
