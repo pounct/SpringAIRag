@@ -93,3 +93,4 @@ http://localhost:port/swagger-ui.html
 
 http://localhost:port/v3/api-docs
 
+<img src="images/rag.png"/> 
