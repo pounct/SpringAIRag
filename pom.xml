@@ -12,7 +12,7 @@
 	<artifactId>springRAG</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>springRAG</name>
-	<description>RAG - Retrieval Augmented Generation avec Sprig AI</description>
+	<description>RAG - Retrieval Augmented Generation y Sprig AI</description>
 	<url/>
 	<licenses>
 		<license/>
@@ -39,6 +39,11 @@
 			<groupId>org.springframework.ai</groupId>
 			<artifactId>spring-ai-openai-spring-boot-starter</artifactId>
 		</dependency>
+		<dependency>
+			<groupId>org.springframework.ai</groupId>
+			<artifactId>spring-ai-pdf-document-reader</artifactId>
+		</dependency>
+
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
