@@ -1,4 +1,4 @@
-# RAG - Retrieval Augmented Generation y Sprig AI
+# RAG - Retrieval Augmented Generation y Spring AI
 
 # class:
 
