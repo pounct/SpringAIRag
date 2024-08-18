@@ -46,6 +46,8 @@ public class DataLoader {
 
                 // Traiter le fichier texte et ajouter les chunks
                 List<Document> textDocuments = loadTextFile(txtFile);
+                // on peut ajouter comme les meta dadat pae example
+                // textDocuments.stream().map(doc->doc.getMetadata().put("x","a ajouter") );
                 // documents.addAll(textDocuments);
                 // Diviser les documents en chunks si nécessaire
                 TextSplitter textSplitter = new TokenTextSplitter();
@@ -53,6 +55,7 @@ public class DataLoader {
 
                 log.info(String.valueOf(chunks.get(0)));
                 // Ajouter les chunks au vector store
+
                 simpleVectorStore.add(chunks);
                 simpleVectorStore.save(fileVectorStore);
             } catch (NonTransientAiException e) {
